@@ -1,0 +1,33 @@
+body{
+    background-image: url(images/moon.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron{
+    color: rgba(0,0,0,1.0);
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.btn-outline-dark.btn-lg{
+    margin-top: 10px; 
+    font-weight: bold;
+    color: rgb(68, 65, 65);
+}
+    .btn.btn-outline-dark.btn-lg:hover{
+        background-color: #ACA2A2;
+    }
+
